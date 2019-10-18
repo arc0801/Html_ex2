@@ -51,7 +51,7 @@
 			</div> <!-- top -->
 			<div class="header_bottom">
 				<div class="header_logo">
-					<img alt="" src="/Html_ex2/images/top_logo.gif">
+					<a href="/Html_ex2/index.jsp"><img alt="" src="/Html_ex2/images/top_logo.gif"></a>
 				</div>
 				<ul>
 					<li><a href="#">메뉴</a></li>
@@ -64,8 +64,8 @@
 		</div> <!-- wrap -->
 	</header>
 <!------- section ------------------------------------>	
-	<section>
-	
+	<section class="main">
+		
 	
 	</section>
 <!------- aside ------------------------------------>	
