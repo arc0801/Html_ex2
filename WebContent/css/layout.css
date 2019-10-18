@@ -107,3 +107,65 @@ header {
 /****** aside ***********************************************/
 
 /****** footer ***********************************************/
+footer {
+	width: 100%;
+	height: 257px;
+	background-color: #262626;
+}
+.footer_util {
+	background-color: white;
+	height: 61px;
+	border-bottom: solid 1px #464646;
+	margin-left: 260px;
+}
+.footer_util li {
+	float: left;
+	line-height: 61px;
+}
+.footer_util a {
+	margin: 0 19px;
+	font-size: 13px;
+	color: #464646;
+}
+.footer_ccm {
+	background-color: orange;
+	width: 100%;
+	height: 45px;
+	margin-top: 30px;
+}
+.footer_logo {
+	background-color: lightblue;
+	margin: 41px 0 24px 0;
+	width: 210px;
+}
+.footer_info {
+	background-color: lightgreen;
+	width: 100%;
+	height: 40px;
+	
+}
+.footer_info span {
+	width: 650px;
+	margin: 14px 0 20px 0;
+	font-size: 
+}
+/* .footer_wrap p {
+	background-color: green;
+	height: 55px;
+	padding-bottom: 35px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

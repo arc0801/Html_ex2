@@ -75,8 +75,31 @@
 	</aside>
 <!------- footer ------------------------------------>	
 	<footer>
-	
-	
+		<div class="footer_wrap">
+			<ul class="footer_util">
+				<li><a href="#">개인정보처리방침</a></li>
+				<li><a href="#">멤버스 이용약관</a></li>
+				<li><a href="#">가맹 안내</a></li>
+				<li><a href="#">대량쿠폰구매</a></li>
+				<li><a href="#">채용안내</a></li>
+				<li><a href="#">고객의 소리</a></li>
+				<li><a href="#">Sitemap</a></li>
+				<li><a href="#">점주의 방</a></li>
+			</ul>
+		</div> <!-- wrap -->
+			<div class="footer_ccm">
+				<span>
+					<img alt="" src="">
+				</span>
+			</div> <!-- ccm -->
+			<div class="footer_logo">
+				<img alt="" src="">
+			</div> <!-- logo -->
+			<p class="footer_info">
+				<span>
+				</span>
+			</p> <!-- info -->
+			<p class="footer_copy"></p>
 	</footer>
 
 </body>
