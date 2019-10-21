@@ -18,7 +18,7 @@
 						<a href="#">브랜드 사이트</a>
 					</li>
 					<li>
-						<img alt="" src="/Html_ex2/images/util_line.gif">
+						<img alt="" src="/Html_ex2/images/common/util_line.gif">
 					</li>
 					<li>
 						<a href="#">기업 사이트</a>
@@ -33,13 +33,13 @@
 					</ul>
 					<ul class="header_sns">
 						<li>
-							<a href="#"><img alt="" src="/Html_ex2/images/top_sns01.gif"></a>
+							<a href="#"><img alt="" src="/Html_ex2/images/common/top_sns01.gif"></a>
 						</li>
 						<li>
-							<a href="#"><img alt="" src="/Html_ex2/images/top_sns02.gif"></a>
+							<a href="#"><img alt="" src="/Html_ex2/images/common/top_sns02.gif"></a>
 						</li>
 						<li>
-							<a href="#"><img alt="" src="/Html_ex2/images/top_sns03.gif"></a>
+							<a href="#"><img alt="" src="/Html_ex2/images/common/top_sns03.gif"></a>
 						</li>
 					</ul>
 					<select>
@@ -51,7 +51,7 @@
 			</div> <!-- top -->
 			<div class="header_bottom">
 				<div class="header_logo">
-					<a href="/Html_ex2/index.jsp"><img alt="" src="/Html_ex2/images/top_logo.gif"></a>
+					<a href="/Html_ex2/index.jsp"><img alt="" src="/Html_ex2/images/common/top_logo.gif"></a>
 				</div>
 				<ul>
 					<li><a href="#">메뉴</a></li>
@@ -65,26 +65,45 @@
 	</header>
 <!------- section ------------------------------------>	
 	<section class="main">
-		
-	
+		<div class="main_block01">
+			<a href="#"><img alt="" src="./images/main/main_05.jpg"></a>
+		</div>
+		<div class="main_block02">
+			<div class="main_block02_wrap">
+				<h2>
+					<img alt="" src="./images/main/main_block01_tt.gif">
+					<span>YOUR COFFEE FLAVOR</span>
+				</h2>
+				<p>
+					엄선된 원두에서 추출한 최상의 맛과 향을
+					<br>
+					'언제 어디서나' 간편하게 즐기다
+					<br>
+					<a href="#">제품 자세히보기	></a>			
+				</p>
+			</div>
+		</div> <!-- block02 -->
+		<div class="main_block03">
+				
+		</div> <!-- 03 -->
 	</section>
 <!------- aside ------------------------------------>	
 	<aside>
 			<div class="aside_left">
-				<a href="#"><img alt="" src="./images/main_event_bn.png"></a>
+				<a href="#"><img alt="" src="./images/common/main_event_bn.png"></a>
 			</div>
 		<ul class="aside_right">
 			<li>
-				<a href="#"><img alt="" src="./images/main_quick01.png"></a>
+				<a href="#"><img alt="" src="./images/common/main_quick01.png"></a>
 			</li>
 			<li>
-				<a href="#"><img alt="" src="./images/main_quick02.png"></a>
+				<a href="#"><img alt="" src="./images/common/main_quick02.png"></a>
 			</li>
 			<li>
-				<a href="#"><img alt="" src="./images/main_quick03.png"></a>
+				<a href="#"><img alt="" src="./images/common/main_quick03.png"></a>
 			</li>
 			<li>
-				<a href="#"><img alt="" src="./images/main_quick04.png"></a>
+				<a href="#"><img alt="" src="./images/common/main_quick04.png"></a>
 			</li>
 		</ul>
 	</aside>
@@ -103,10 +122,10 @@
 			</ul> <!-- wrap -->
 		
 			<div class="footer_ccm">
-				<img alt="" src="/Html_ex2/images/footer_ccm.png">
+				<img alt="" src="/Html_ex2/images/common/footer_ccm.png">
 			</div> <!-- ccm -->
 			<div class="footer_logo">
-				<img alt="" src="/Html_ex2/images/bottom_logo.gif">
+				<img alt="" src="/Html_ex2/images/common/bottom_logo.gif">
 			</div> <!-- logo -->
 			<p class="footer_info">
 				서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동 221-17) TEL : 02-543-6467 FAX : 02-543-7191
@@ -116,7 +135,6 @@
 			<p class="footer_copy">
 			ⓒ 2017 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED..
 			</p>
-			
 	</footer>
 
 </body>
