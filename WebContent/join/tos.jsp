@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 <link href="/Html_ex2/css/reset.css" rel="stylesheet">
 <link href="/Html_ex2/css/layout.css" rel="stylesheet">
-<link href="../css/join.css" rel="stylesheet">
+<link href="../css/tos.css" rel="stylesheet">
 </head>
 <body>
 	<!------- header ------------------------------------>
@@ -72,10 +72,35 @@
 			</div>
 			<p class="tos_text1">Join Us, Ediya Coffee</p>
 			<p class="tos_text2">이디야멤버스 가입을 위한 약관 동의 및 본인 인증단계입니다.</p>
-		</div>
-			
-		<!-- 	이메일을 입력해주세요.
-이메일은 멤버스 로그인 시 아이디로 사용됩니다.
+		</div> <!-- top -->
+		<div class="tos_wrap">
+			<div class="tos_wrap_top">
+				<p class="tos_wrap_subtop1">이메일을 입력해주세요.</p>
+				<p class="tos_wrap_subtop2">이메일은 멤버스 로그인 시 아이디로 사용됩니다.</p>
+				
+				<ul class="tos_wrap_email">
+					<li class="wrap_email1"><input type="text" placeholder="이메일"></li>
+					<li class="wrap_email2">@</li>
+					<li class="wrap_email3"><input type="text"></li>
+					<li class="wrap_select"><select>
+						<option>직접입력</option>
+						<option>naver.com</option>
+						<option>daum.net</option>
+						<option>nate.com</option>
+						<option>hanmail.net</option>
+						<option>hotmail.com</option>
+						<option>yahoo.co.kr</option>
+						<option>korea.com</option>
+						<option>gmail.com</option>
+						<option>empal.com</option>
+						<option>freechal.com</option>
+						<option>dreamwiz.com</option>
+						<option>netian.com</option>
+						<option>chol.net</option>
+					</select></li>
+				</ul>
+			</div> <!-- top -->
+		</div> <!-- wrap -->	
 서비스 이용약관
 전체동의 ( ※ 선택동의 사항이 포함되어 있습니다.)
 이디야 멤버스 서비스 이용약관 동의 (필수)
@@ -84,12 +109,8 @@
 마케팅 활용 수신 동의 (선택)
 광고성 정보 수신 동의 (선택)
 ※ 선택 사항에 동의하지 않으셔도 서비스 가입 및 이용이 가능하나, 동의하지 않을 경우 제공 가능한 관련 편의 사항 등(주변매장찾기, 맞춤형 쿠폰, 기타 각종 혜택 등)이 제한될 수 있습니다.
-		 -->
+
 		
-		
-		<div class="tos_wrap">
-			
-		</div>
 	</section>
 <!------- footer ------------------------------------>	
 	<footer>

@@ -1,0 +1,111 @@
+@charset "UTF-8";
+.tos_top {
+	margin-top: 130px;
+	height: 850px;
+	width: 100%;
+	background-image: url("../images/join/join_bg.jpg");
+	background-position: bottom;
+	background-size: cover;
+	overflow: hidden;
+}
+.tos_image {
+	padding: 226px 0 70px;
+	width: 302px;
+	height: 78px;
+	margin: 0 auto;
+}
+.tos_text1 {
+	color: white;
+	text-align: center;
+	font-size: 38px;
+	margin-bottom: 10px;
+}
+.tos_text2 {
+	color: #b9b8b8;
+	text-align: center;
+	font-size: 18px;
+}
+.tos_wrap {
+	background: lightblue;
+	max-width: 1180px;
+	height: 1000px;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 30px 0 70px;
+	box-sizing: border-box;
+	border: 1px solid #ebebeb;
+}
+.tos_wrap_top {
+	background: lightgray;
+	padding-top: 44px;
+	height : 225px;
+	width: 100%;
+	max-width: 680px;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 1px solid #ebebeb;
+}
+.tos_wrap_subtop1 {
+	font-size: 26px;
+	color: #202022;
+}
+.tos_wrap_subtop2 {
+	font-size: 17px;
+	color: #202022;
+	padding-top: 12px;
+}
+.tos_wrap_email {
+	float: left;
+	width: 100%;
+	padding-top: 44px;
+	background: red;
+	margin-bottom: 50px;
+}
+.tos_wrap_email li {
+	height: 58px;
+	line-height: 58px;
+	float: left;
+	
+}
+.tos_wrap_email > li > input {
+	height: 58px;
+	border: solid 1px #cccccc;
+	border-radius: 3px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: #707070;
+	width: 211.47px;
+}
+.wrap_email1 input {
+	
+}
+.wrap_email2 {
+	width: 3.7%;
+	font-size: 16px;
+	margin: 0 1%;
+	color: #707070;
+}
+.wrap_email3 {
+	
+}
+.wrap_select {
+	margin-left: 1%;
+}
+.wrap_select select {
+	
+	width: 211.47px;
+	height: 58px;
+	line-height: 58px;
+	border: solid 1px #cccccc;
+	border-radius: 3px;
+	padding: 5px 5px 5px 15px;
+	font-size: 15px;
+	color: #707070;
+	
+}
+
+
+
+
