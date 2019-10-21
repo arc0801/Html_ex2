@@ -64,7 +64,9 @@
 		</div> <!-- wrap -->
 	</header>
 <!------- section ------------------------------------>	
-	<section class="main">
+	<section class="form">
+		
+	</section>
 <!------- footer ------------------------------------>	
 	<footer>
 		<div class="footer_wrap">
