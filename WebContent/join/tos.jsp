@@ -9,7 +9,7 @@
 <link href="/Html_ex2/css/layout.css" rel="stylesheet">
 </head>
 <body>
-<!------- header ------------------------------------>
+	<!------- header ------------------------------------>
 	<header>
 		<div class="header_wrap">
 			<div class="header_top">
@@ -65,48 +65,6 @@
 	</header>
 <!------- section ------------------------------------>	
 	<section class="main">
-		<div class="main_block01">
-			<a href="#"><img alt="" src="./images/main/main_05.jpg"></a>
-		</div>
-		<div class="main_block02">
-			<div class="main_block02_wrap">
-				<h2>
-					<img alt="" src="./images/main/main_block01_tt.gif">
-					<span>YOUR COFFEE FLAVOR</span>
-				</h2>
-				<p>
-					엄선된 원두에서 추출한 최상의 맛과 향을
-					<br>
-					'언제 어디서나' 간편하게 즐기다
-					<br>
-					<a href="#">제품 자세히보기	></a>			
-				</p>
-			</div>
-		</div> <!-- block02 -->
-		<div class="main_block03">
-				
-		</div> <!-- 03 -->
-	</section>
-<!------- aside ------------------------------------>	
-	<aside>
-			<div class="aside_left">
-				<a href="#"><img alt="" src="./images/common/main_event_bn.png"></a>
-			</div>
-		<ul class="aside_right">
-			<li>
-				<a href="#"><img alt="" src="./images/common/main_quick01.png"></a>
-			</li>
-			<li>
-				<a href="#"><img alt="" src="./images/common/main_quick02.png"></a>
-			</li>
-			<li>
-				<a href="#"><img alt="" src="./images/common/main_quick03.png"></a>
-			</li>
-			<li>
-				<a href="#"><img alt="" src="./images/common/main_quick04.png"></a>
-			</li>
-		</ul>
-	</aside>
 <!------- footer ------------------------------------>	
 	<footer>
 		<div class="footer_wrap">
@@ -136,12 +94,6 @@
 		<p class="footer_copy">
 			ⓒ 2017 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED..
 		</p>
-	</footer>
-
+	</footer>	
 </body>
 </html>
-		
-		
-		
-		
-		

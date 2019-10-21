@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 <link href="/Html_ex2/css/reset.css" rel="stylesheet">
 <link href="/Html_ex2/css/layout.css" rel="stylesheet">
+<link href="/Html_ex2/css/login.css" rel="stylesheet">
 </head>
 <body>
 <!------- header ------------------------------------>
@@ -65,48 +66,50 @@
 	</header>
 <!------- section ------------------------------------>	
 	<section class="main">
-		<div class="main_block01">
-			<a href="#"><img alt="" src="./images/main/main_05.jpg"></a>
-		</div>
-		<div class="main_block02">
-			<div class="main_block02_wrap">
-				<h2>
-					<img alt="" src="./images/main/main_block01_tt.gif">
-					<span>YOUR COFFEE FLAVOR</span>
-				</h2>
-				<p>
-					엄선된 원두에서 추출한 최상의 맛과 향을
-					<br>
-					'언제 어디서나' 간편하게 즐기다
-					<br>
-					<a href="#">제품 자세히보기	></a>			
+		<div class="main_wrap">
+			<div class="login01">
+				<div class="login_tt">
+					<img alt="" src="../images/log/login_tt.png">
+				</div>
+				<span>Welcome, Ediya Coffee</span>
+				<p>이디야커피에 오신 것을 환영합니다.</p>
+			</div> <!-- 01 -->
+			
+			<div class="login02">
+				<p class="login02_1">
+					이디야 회원이셨나요?
 				</p>
-			</div>
-		</div> <!-- block02 -->
-		<div class="main_block03">
+				<p class="login02_2">
+					이디야 멤버스가 새로워졌습니다.
+				</p>
+				<p class="login02_3">
+					회원님께 더 좋은 서비스를 제공해드리고자,<br>
+					선물하기, 이디야카드, 스마트오더 등의 서비스를 추가하여 더욱 새로워졌습니다.<br>
+					회원님께서 새로운 서비스를 이용하시기 위해서는 본인 인증이 필요합니다.<br>
+					본인 인증은 1회만 진행하며, 인증후, 더 편리하게 서비스를 이용하실 수 있습니다.
+				</p>
+				<a href="#">이디야 멤버스 가입정보 찾기</a>
+			</div> <!-- 02 -->
 				
-		</div> <!-- 03 -->
+			<div class="login03">
+				<div class="login03_box">
+					<p><input type="text" placeholder="이메일을 입력하세요"></p>
+					<p><input type="password" placeholder="비밀번호를 입력하세요"></p>
+				</div>
+				<div class="login03_check">
+					<input type="checkbox" > 이메일 저장
+				</div>
+				<div class="login03_submit">
+					<input type="submit" value="로그인">
+				</div>
+				<div class="login03_bottom">
+					<a class="login03_bottom3" href="#">회원 가입</a>
+					<a class="login03_bottom3" href="#">이메일 찾기</a>
+					<a href="#">비밀번호 찾기</a>
+				</div>
+			</div> <!-- 03 -->
+		</div>
 	</section>
-<!------- aside ------------------------------------>	
-	<aside>
-			<div class="aside_left">
-				<a href="#"><img alt="" src="./images/common/main_event_bn.png"></a>
-			</div>
-		<ul class="aside_right">
-			<li>
-				<a href="#"><img alt="" src="./images/common/main_quick01.png"></a>
-			</li>
-			<li>
-				<a href="#"><img alt="" src="./images/common/main_quick02.png"></a>
-			</li>
-			<li>
-				<a href="#"><img alt="" src="./images/common/main_quick03.png"></a>
-			</li>
-			<li>
-				<a href="#"><img alt="" src="./images/common/main_quick04.png"></a>
-			</li>
-		</ul>
-	</aside>
 <!------- footer ------------------------------------>	
 	<footer>
 		<div class="footer_wrap">
@@ -140,8 +143,3 @@
 
 </body>
 </html>
-		
-		
-		
-		
-		
