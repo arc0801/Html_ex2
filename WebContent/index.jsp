@@ -70,15 +70,23 @@
 	</section>
 <!------- aside ------------------------------------>	
 	<aside>
-		<div class="aside_left">
-			<img alt="" src="./images/main_event_bn_.png">
-		</div>
-		<div class="aside_right">
-			<img alt="" src="./images/main_quick01.png">
-			<img alt="" src="./images/main_quick02.png">
-			<img alt="" src="./images/main_quick03.png">
-			<img alt="" src="./images/main_quick04.png">
-		</div>
+			<div class="aside_left">
+				<a href="#"><img alt="" src="./images/main_event_bn.png"></a>
+			</div>
+		<ul class="aside_right">
+			<li>
+				<a href="#"><img alt="" src="./images/main_quick01.png"></a>
+			</li>
+			<li>
+				<a href="#"><img alt="" src="./images/main_quick02.png"></a>
+			</li>
+			<li>
+				<a href="#"><img alt="" src="./images/main_quick03.png"></a>
+			</li>
+			<li>
+				<a href="#"><img alt="" src="./images/main_quick04.png"></a>
+			</li>
+		</ul>
 	</aside>
 <!------- footer ------------------------------------>	
 	<footer>

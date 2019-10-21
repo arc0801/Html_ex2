@@ -107,17 +107,20 @@ header {
 /****** aside ***********************************************/
 .aside_left {
 	position: fixed;
-	top: 300px;
-	left: 0px;
+	top: 170px;
+	left: 150px;
+	width: 197px;
+	height: 278px;
 	
 }
 .aside_right {
 	position: fixed;
-	top: 300px;
-	right: 0px;
-	
+	top: 223px;
+	right: 30px;
 }
-
+.aside_right li {
+	margin: 5px 0;
+}
 
 /****** footer ***********************************************/
 footer {
