@@ -105,67 +105,72 @@ header {
 	margin-top: 130px;
 }
 /****** aside ***********************************************/
+.aside_left {
+	position: fixed;
+	top: 300px;
+	left: 0px;
+	
+}
+.aside_right {
+	position: fixed;
+	top: 300px;
+	right: 0px;
+	
+}
+
 
 /****** footer ***********************************************/
 footer {
+	clear: both;
 	width: 100%;
 	height: 257px;
 	background-color: #262626;
+	text-align: center;
 }
 .footer_util {
-	background-color: white;
 	height: 61px;
+	width: 100%;
 	border-bottom: solid 1px #464646;
-	margin-left: 260px;
+	padding: 16px 0;
+	box-sizing: border-box;
 }
 .footer_util li {
+	display: inline-block;
+	margin: 3px 19px;
 	float: left;
-	line-height: 61px;
 }
 .footer_util a {
-	margin: 0 19px;
 	font-size: 13px;
-	color: #464646;
+	color: #818181; 
 }
-.footer_ccm {
-	background-color: orange;
-	width: 100%;
-	height: 45px;
+.footer_util_sub a {
+	color: white;
+	margin-left: 350px;
+}
+.footer_ccm img {
 	margin-top: 30px;
+	width: 170px;
+	height: 45px;
+	position: absolute;
+	right: 200px;
 }
-.footer_logo {
-	background-color: lightblue;
-	margin: 41px 0 24px 0;
+.footer_logo img {
+	margin-top: 41px;
+	margin-bottom: 24px;
 	width: 210px;
+	height: 20px;
 }
 .footer_info {
-	background-color: lightgreen;
-	width: 100%;
-	height: 40px;
-	
-}
-.footer_info span {
 	width: 650px;
-	margin: 14px 0 20px 0;
-	font-size: 
+	height: 40px;
+	margin: 0 auto;
+	margin-bottom: 14px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #6c6c6c;
 }
-/* .footer_wrap p {
-	background-color: green;
-	height: 55px;
-	padding-bottom: 35px;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer_copy {
+	font-size: 12px;
+	color: #6c6c6c;
+	margin-bottom: 35px;
+}
