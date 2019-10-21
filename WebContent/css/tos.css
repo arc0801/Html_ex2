@@ -26,9 +26,7 @@
 	font-size: 18px;
 }
 .tos_wrap {
-	background: lightblue;
 	max-width: 1180px;
-	height: 1000px;
 	margin: 0 auto;
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -37,7 +35,6 @@
 	border: 1px solid #ebebeb;
 }
 .tos_wrap_top {
-	background: lightgray;
 	padding-top: 44px;
 	height : 225px;
 	width: 100%;
@@ -59,7 +56,6 @@
 	float: left;
 	width: 100%;
 	padding-top: 44px;
-	background: red;
 	margin-bottom: 50px;
 }
 .tos_wrap_email li {
@@ -78,23 +74,16 @@
 	color: #707070;
 	width: 211.47px;
 }
-.wrap_email1 input {
-	
-}
 .wrap_email2 {
 	width: 3.7%;
 	font-size: 16px;
 	margin: 0 1%;
 	color: #707070;
 }
-.wrap_email3 {
-	
-}
 .wrap_select {
 	margin-left: 1%;
 }
 .wrap_select select {
-	
 	width: 211.47px;
 	height: 58px;
 	line-height: 58px;
@@ -103,9 +92,101 @@
 	padding: 5px 5px 5px 15px;
 	font-size: 15px;
 	color: #707070;
-	
 }
-
-
-
-
+.content_wrap {
+	padding-top: 44px;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 680px;
+	margin: 0 auto;
+}
+.tos_content1 {
+	text-align: center;
+	font-size: 26px;
+	color: #202022;
+}
+.tos_content2 {
+	padding-top: 40px;
+	font-size: 15px;
+}
+.tos_content2 a {
+	font-size: 20px;
+	background-image: url("../images/join/join_check_on.gif");
+	background-repeat: no-repeat;
+	padding-left: 37px;
+}
+.tos_list_wrap {
+	padding-top: 20px;
+}
+.tos_list_wrap li {
+	margin-bottom: 10px;
+}
+.tos_list_subwrap1 {
+	width: 680px;
+	height: 30.5px;	
+	line-height: 30.5px;
+	margin: 0 auto;
+}
+.tos_list01 {
+	display: block;
+	float: left;
+	font-size: 16px;
+	color: #464646;
+}
+.tos_list01 span {
+	color: #002f6c;
+}
+.checkbox {
+	margin-top: 9px;
+	float: right;
+	width: 14px;
+	height: 14px;
+}
+.tos_list_subwrap2 {
+    background-color: #f8f8f8;
+	width: 680px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}
+.subwrap2_txt1 {
+	font-size: 15px;
+	color: #002f6c;
+	margin-bottom: 25px;
+}
+.subwrap2_txt2 {
+	text-align: center;
+	font-size: 13px;
+	color: #7a7a7a;
+	font-weight: bold;
+}
+.tos_list_red {
+	width: 680px;
+	height: 44px;
+	color: red;
+	font-size: 12px;
+	margin: 0 auto;
+	line-height: 20px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #ebebeb;
+}
+.tos_bottom_join {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 500px;
+	height: 68px;
+	line-height: 68px;
+	background-color: #002f6c;
+	text-align: center;
+	border-radius: 3px;
+}
+.tos_bottom_join a {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
