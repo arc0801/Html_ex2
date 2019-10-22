@@ -184,6 +184,9 @@
 	background-color: #002f6c;
 	text-align: center;
 	border-radius: 3px;
+}
+.tos_bottom_join a {
+	width: 100%;
 	color: white;
 	font-size: 18px;
 	font-weight: bold;
