@@ -29,7 +29,7 @@
 				<div class="header_util">
 					<ul class="header_members">
 						<li><a href="/Html_ex2/log/login.jsp">로그인</a></li>
-						<li><a href="#">회원가입</a></li>
+						<li><a href="/Html_ex2/join/tos.jsp">회원가입</a></li>
 						<li><a href="#">매장찾기</a></li>
 					</ul>
 					<ul class="header_sns">
@@ -100,17 +100,34 @@
 					</select></li>
 				</ul>
 			</div> <!-- top -->
-		</div> <!-- wrap -->	
-서비스 이용약관
-전체동의 ( ※ 선택동의 사항이 포함되어 있습니다.)
-이디야 멤버스 서비스 이용약관 동의 (필수)
-개인정보 수집 및 이용 동의 (필수)
-위치기반서비스 이용약관 동의 (선택)
-마케팅 활용 수신 동의 (선택)
-광고성 정보 수신 동의 (선택)
-※ 선택 사항에 동의하지 않으셔도 서비스 가입 및 이용이 가능하나, 동의하지 않을 경우 제공 가능한 관련 편의 사항 등(주변매장찾기, 맞춤형 쿠폰, 기타 각종 혜택 등)이 제한될 수 있습니다.
-
-		
+			
+			<div class="content_wrap">
+					<p class="tos_content1">서비스 이용약관</p>
+					<p class="tos_content2"><a href="#">전체동의</a>( ※ 선택동의 사항이 포함되어 있습니다.)</p>
+			</div>
+			<ul class="tos_list_wrap">
+				<li>
+					<div class="tos_list_subwrap1">
+						<p class="tos_list01">
+							이디야 멤버스 서비스 이용약관 동의
+							<span>(필수)</span>
+						</p>
+						<input type="checkbox" class="checkbox">
+					</div>
+					<div class="tos_list_subwrap2">
+						<p class="subwrap2_txt1">이디야커피는 고객님의 정보를 소중히 생각합니다.</p>
+						<p class="subwrap2_txt2">이디야멤버스 이용약관</p>
+					</div>
+				</li>
+				<li class="tos_list_red">
+					※ 선택 사항에 동의하지 않으셔도 서비스 가입 및 이용이 가능하나, 동의하지 않을 경우 제공 가능한 관련 편의 사항 등<br>
+					(주변매장찾기, 맞춤형 쿠폰, 기타 각종 혜택 등)이 제한될 수 있습니다.
+				</li>
+			</ul>
+			<div class="tos_bottom_join">
+				<a href="../join/join_form.jsp">가입하기</a>
+			</div>
+		</div> <!-- wrap -->
 	</section>
 <!------- footer ------------------------------------>	
 	<footer>
@@ -143,4 +160,4 @@
 		</p>
 	</footer>	
 </body>
-</html>
+</html>		

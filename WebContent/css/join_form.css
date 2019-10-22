@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.join_top {
+	margin-top: 130px;
+	height: 850px;
+	width: 100%;
+	background-image: url("../images/join/join_bg.jpg");
+	background-position: bottom;
+	background-size: cover;
+	overflow: hidden;
+}
+.join_image {
+	padding: 226px 0 70px;
+	width: 302px;
+	height: 78px;
+	margin: 0 auto;
+}
+.join_text1 {
+	color: white;
+	text-align: center;
+	font-size: 38px;
+	margin-bottom: 10px;
+}
+.join_text2 {
+	color: #b9b8b8;
+	text-align: center;
+	font-size: 18px;
+}

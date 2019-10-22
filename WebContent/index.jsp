@@ -28,7 +28,7 @@
 				<div class="header_util">
 					<ul class="header_members">
 						<li><a href="/Html_ex2/log/login.jsp">로그인</a></li>
-						<li><a href="#">회원가입</a></li>
+						<li><a href="/Html_ex2/join/tos.jsp">회원가입</a></li>
 						<li><a href="#">매장찾기</a></li>
 					</ul>
 					<ul class="header_sns">

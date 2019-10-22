@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 <link href="/Html_ex2/css/reset.css" rel="stylesheet">
 <link href="/Html_ex2/css/layout.css" rel="stylesheet">
+<link href="/Html_ex2/css/join_form.css" rel="stylesheet">
 </head>
 <body>
 	<!------- header ------------------------------------>
@@ -28,7 +29,7 @@
 				<div class="header_util">
 					<ul class="header_members">
 						<li><a href="/Html_ex2/log/login.jsp">로그인</a></li>
-						<li><a href="#">회원가입</a></li>
+						<li><a href="/Html_ex2/join/tos.jsp">회원가입</a></li>
 						<li><a href="#">매장찾기</a></li>
 					</ul>
 					<ul class="header_sns">
@@ -65,7 +66,13 @@
 	</header>
 <!------- section ------------------------------------>	
 	<section class="form">
-		
+		<div class="join_top">
+			<div class="join_image">			
+				<img alt="" src="../images/join/join_tt.png">	
+			</div>
+			<p class="join_text1">Join Us, Ediya Coffee</p>
+			<p class="join_text2">이디야멤버스 가입을 위한 개인정보를 작성하는 곳입니다.</p>
+		</div> <!-- top -->
 	</section>
 <!------- footer ------------------------------------>	
 	<footer>
