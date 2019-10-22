@@ -111,6 +111,9 @@
 					</div>
 				</div>
 			</div>
+			<div class="join_box">
+				<input type="submit" value="가입하기" class="join_inputbox">
+			</div>
 		</div>
 	</section>
 <!------- footer ------------------------------------>	

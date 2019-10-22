@@ -26,13 +26,11 @@
 	font-size: 18px;
 }
 .form_box {
-	background: lightgray;
 	max-width: 1180px;
     margin: 0 auto;
     height: 1072px;
 }
 .form_wrap {
-	background: lightblue;
 	margin-top: 100px;
     margin-bottom: 100px;
     border: 1px solid #ebebeb;
@@ -42,7 +40,6 @@
     height: 770px;
 }
 .input_box {
-	background: orange;
 	padding: 44px 0 50px;
 	width: 100%;
     max-width: 680px;
@@ -51,30 +48,53 @@
     border-bottom: 1px solid #ebebeb;
 }
 .input_title {
-	background: lightgreen;
 	width: 100%;
 	font-size: 28px;
 	text-align: center;
     color: #202022;
 }
 .input_wrap {
-	background: white;
 	margin-top: 42px;
 	width: 100%;
 	height: 458px;
 }
 .input_wrap table {
-	border: 2px solid black;
 	margin: 0 auto;
 	width: 100%;
 }
 .input_tr {
-	
+	height: 68px;
+	margin-bottom: 10px;
 }
 .input_td1 {
-	
+	width: 140px;
+	font-size: 15px;
 }
 .input_td2 {
-	
+	width: 540px;
+	font-size: 15px;
 }
-
+.input_td2 input {
+	width: 100%;
+	height: 58px;
+	border-radius: 3px;
+}
+.join_box {
+	width: 100%;
+	max-width: 500px;
+	margin-top: 50px;
+	margin: 0 auto;
+}
+.join_inputbox {
+	background-color: #002f6c;
+	border: solid 1px #002f6c;
+	border-radius: 3px;
+	width: 100%;
+	height: 68px;
+	line-height: 68px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
