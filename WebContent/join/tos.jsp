@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 <link href="/Html_ex2/css/reset.css" rel="stylesheet">
 <link href="/Html_ex2/css/layout.css" rel="stylesheet">
-<link href="../css/tos.css" rel="stylesheet">
+<link href="/Html_ex2/css/tos.css" rel="stylesheet">
 </head>
 <body>
 	<!------- header ------------------------------------>

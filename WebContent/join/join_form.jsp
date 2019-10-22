@@ -71,8 +71,47 @@
 				<img alt="" src="../images/join/join_tt.png">	
 			</div>
 			<p class="join_text1">Join Us, Ediya Coffee</p>
-			<p class="join_text2">이디야멤버스 가입을 위한 개인정보를 작성하는 곳입니다.</p>
+			<p class="join_text2">이디야멤버스 가입을 위한 회원정보를 입력하는 공간입니다.</p>
 		</div> <!-- top -->
+		<div class="form_box">
+			<div class="form_wrap">
+				<div class="input_box">
+					<p class="input_title">회원정보입력</p>
+					<div class="input_wrap">
+						<table>
+							<tr class="input_tr">
+								<td class="input_td1">아이디(이메일)</td>
+								<td class="input_td2"><input type="text"></td>
+							</tr>
+							<tr class="input_tr">
+								<td class="input_td1">이름</td>
+								<td class="input_td2"><input type="text"></td>
+							</tr>
+							<tr class="input_tr">
+								<td class="input_td1">휴대폰</td>
+								<td class="input_td2"><input type="text"></td>
+							</tr>
+							<tr class="input_tr">
+								<td class="input_td1">비밀번호</td>
+								<td class="input_td2"><input type="password" placeholder="비밀번호"></td>
+							</tr>
+						</table>
+						<p class="input_pw">안전한 비밀번호를 위해 숫자, 문자 조합하여 10~16자 이상으로 입력해주세요.</p>
+						<table>	
+							<tr class="input_tr">
+								<td class="input_td1">비밀번호 확인</td>
+								<td class="input_td2"><input type="password"></td>
+							</tr>
+							<tr class="input_tr">
+								<td class="input_td1">닉네임</td>
+								<td class="input_td2"><input type="text" placeholder="한글, 숫자 5자 이내로 입력하세요"></td>
+							</tr>
+						</table>
+						<p class="input_nn">욕설 등 부적절한 단어는 제한을 받습니다.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 <!------- footer ------------------------------------>	
 	<footer>
