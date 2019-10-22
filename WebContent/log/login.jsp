@@ -92,21 +92,60 @@
 			</div> <!-- 02 -->
 				
 			<div class="login03">
-				<div class="login03_box">
-					<p><input type="text" placeholder="이메일을 입력하세요"></p>
-					<p><input type="password" placeholder="비밀번호를 입력하세요"></p>
-				</div>
-				<div class="login03_check">
-					<input type="checkbox" > 이메일 저장
-				</div>
-				<div class="login03_submit">
-					<input type="submit" value="로그인">
-				</div>
-				<div class="login03_bottom">
-					<a class="login03_bottom3" href="#">회원 가입</a>
-					<a class="login03_bottom3" href="#">이메일 찾기</a>
-					<a href="#">비밀번호 찾기</a>
-				</div>
+				<form action="../index.html">
+					<div class="login03_box">
+						<p><input type="text" placeholder="이메일을 입력하세요" id="id"></p>
+						<div id="idResult"></div>
+						<p><input type="password" placeholder="비밀번호를 입력하세요" id="pw"></p>
+						<div id="pwResult"></div>
+					</div>
+					<div class="login03_check">
+						<input type="checkbox" > 이메일 저장
+					</div>
+					
+					
+					
+					<p><button onclick="return check()">Login</button></p>
+					<div class="login03_submit">
+						<input type="submit" value="로그인" onclick="return check()">
+					</div>
+					<p><input type="button" value="Login" onclick="check()"></p>
+					
+					<script type="text/javascript">
+						function check() {
+							var id=document.getElementById("id").value;
+							var pw=document.getElementById("pw").value;
+							/* if(id=='' || pw==''){
+								alert("입력");
+							}else{
+								alert("OK");
+							} */
+							if(id==''&&pw==''){
+								document.getElementById("idResult").innerHTML="ID를 입력하세요";
+								document.getElementById("pwResult").innerHTML="PW를 입력하세요";
+							}else if(id==''){
+								document.getElementById("idResult").innerHTML="ID를 입력하세요";
+							}else if(pw==''){
+								document.getElementById("pwResult").innerHTML="PW를 입력하세요";
+							}else {
+								document.getElementById("idResult").innerHTML="";
+								document.getElementById("pwResult").innerHTML="";
+							}
+							return false; //button tag의 무조건 페이지 넘김을 방지
+						}
+					</script>
+					
+					
+					
+					
+					
+					
+					<div class="login03_bottom">
+						<a class="login03_bottom3" href="#">회원 가입</a>
+						<a class="login03_bottom3" href="#">이메일 찾기</a>
+						<a href="#">비밀번호 찾기</a>
+					</div>
+				</form>
 			</div> <!-- 03 -->
 		</div>
 	</section>
