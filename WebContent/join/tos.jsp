@@ -103,7 +103,7 @@
 			
 			<div class="content_wrap">
 					<p class="tos_content1">서비스 이용약관</p>
-					<p class="tos_content2"><a href="#">전체동의</a>( ※ 선택동의 사항이 포함되어 있습니다.)</p>
+					<p class="tos_content2"><a href="#">전체동의</a> ( ※ 선택동의 사항이 포함되어 있습니다.)</p>
 			</div>
 			<ul class="tos_list_wrap">
 				<li>
@@ -114,11 +114,73 @@
 						</p>
 						<input type="checkbox" class="checkbox">
 					</div>
-					<div class="tos_list_subwrap2">
-						<p class="subwrap2_txt1">이디야커피는 고객님의 정보를 소중히 생각합니다.</p>
-						<p class="subwrap2_txt2">이디야멤버스 이용약관</p>
+					<div class="tos_list_agree1">
+						<p class="agree1_txt1">이디야커피는 고객님의 정보를 소중히 생각합니다.</p>
+						<p class="agree1_txt2">이디야멤버스 이용약관</p>
 					</div>
 				</li>
+				
+				<li>
+					<div class="tos_list_subwrap2">
+						<p class="tos_list02">
+							개인정보 수집 및 이용 동의
+							<span>(필수)</span>
+						</p>
+						<a href="#">전문보기</a>
+						<input type="checkbox" class="checkbox">
+					</div>
+					<div class="tos_list_agree2">
+						<p class="agree2_txt1">1. 수집주체</p>
+						<p class="agree2_txt2">(주)이디야(이하 ‘회사’라 합니다)</p>
+					</div>
+				</li>
+				
+				<li>
+					<div class="tos_list_subwrap3">
+						<p class="tos_list03">
+							위치기반서비스 이용약관 동의
+							<span>(선택)</span>
+						</p>
+						<input type="checkbox" class="checkbox">
+					</div>
+					<div class="tos_list_agree3">
+						<p class="agree3_txt1">위치기반 서비스 이용약관</p>
+						<p class="agree3_txt2">제 1 조 (이용 목적)</p>
+					</div>
+				</li>
+				
+				<li>
+					<div class="tos_list_subwrap4">
+						<p class="tos_list04">
+							마케팅 활용 수신 동의
+							<span>(선택)</span>
+						</p>
+						<input type="checkbox" class="checkbox">
+					</div>
+					<div class="tos_list_agree4">
+						<p class="agree4_txt1">수집하는 개인정보는 마케팅, 프로모션, 이벤트, 행사관련 정보 안내 및 제반 마케팅활동, 맞춤형 서비스 제공, 맞춤형 쿠폰 제공, 당사 및 제휴사 상품/서비스 안내 및 권유 등을 위해 사용하며, 회사는 해당 업무를 수행하기 위하여 수탁사를 활용할 수 있고, 이에 대해서는 개인정보 처리방침을 통해 확인 가능합니다.</p>
+						<p class="agree4_txt2">선택 사항에 동의하지 않으셔도 서비스 가입 및 이용이 가능하나, 동의하지 않을 경우 제공 가능한 관련 편의 사항 등(맞춤형 쿠폰 기타 각종 혜택 등)이 제한될 수 있습니다. </p>
+					</div>
+				</li>
+				
+				<li>
+					<div class="tos_list_subwrap5">
+						<p class="tos_list05">
+							광고성 정보 수신 동의
+							<span>(선택)</span>
+						</p>
+						<input type="checkbox" class="checkbox">
+					</div>
+					<div class="tos_list_agree5">
+						<p class="agree5_txt1">회사는 귀하의 정보들을 활용하여, 앱푸시, 문자메시지, 이메일, 영수증 쿠폰 등 다양한 채널을 통해 귀하에게 꼭 필요한 회사 혹은 제휴사의 상품, 서비스를 추천하거나 맞춤형 광고(쿠폰, 이벤트 등)를 제공에 대한 알림을 합니다. 회사는 해당 업무를 수행하기 위하여 수탁사를 활용할 수 있고, 이에 대해서는 개인정보 처리방침을 통해 확인이 가능합니다.</p>
+						<p class="agree5_txt2">선택 사항에 동의하지 않으셔도 서비스 가입 및 이용이 가능하나, 동의하지 않을 경우 제공 가능한 관련 편의 사항 등(맞춤형 쿠폰 기타 각종 혜택 등)이 제한될 수 있습니다. </p>
+					</div>
+				</li>
+				
+				
+				
+				
+				
 				<li class="tos_list_red">
 					※ 선택 사항에 동의하지 않으셔도 서비스 가입 및 이용이 가능하나, 동의하지 않을 경우 제공 가능한 관련 편의 사항 등<br>
 					(주변매장찾기, 맞춤형 쿠폰, 기타 각종 혜택 등)이 제한될 수 있습니다.

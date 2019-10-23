@@ -110,9 +110,9 @@
 						<p class="input_nn">욕설 등 부적절한 단어는 제한을 받습니다.</p>
 					</div>
 				</div>
-			</div>
-			<div class="join_box">
-				<input type="submit" value="가입하기" class="join_inputbox">
+				<div class="join_box">
+					<input type="submit" value="가입하기" class="join_inputbox">
+				</div>
 			</div>
 		</div>
 	</section>

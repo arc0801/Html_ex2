@@ -103,7 +103,7 @@
 					<input type="submit" value="로그인">
 				</div>
 				<div class="login03_bottom">
-					<a class="login03_bottom3" href="#">회원 가입</a>
+					<a class="login03_bottom3" href="../join/tos.jsp">회원 가입</a>
 					<a class="login03_bottom3" href="#">이메일 찾기</a>
 					<a href="#">비밀번호 찾기</a>
 				</div>

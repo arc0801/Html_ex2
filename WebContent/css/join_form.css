@@ -28,7 +28,6 @@
 .form_box {
 	max-width: 1180px;
     margin: 0 auto;
-    height: 1072px;
 }
 .form_wrap {
 	margin-top: 100px;
@@ -37,7 +36,6 @@
     padding: 30px 0 70px;
     box-sizing: border-box;
     overflow: hidden;
-    height: 770px;
 }
 .input_box {
 	padding: 44px 0 50px;
@@ -97,4 +95,5 @@
 	color: white;
 	font-weight: bold;
 	cursor: pointer;
+	margin-top: 50px;
 }

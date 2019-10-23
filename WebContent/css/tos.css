@@ -108,12 +108,14 @@
 .tos_content2 {
 	padding-top: 40px;
 	font-size: 15px;
+	color: #464646;
 }
 .tos_content2 a {
 	font-size: 20px;
 	background-image: url("../images/join/join_check_on.gif");
 	background-repeat: no-repeat;
 	padding-left: 37px;
+	color: #464646;
 }
 .tos_list_wrap {
 	padding-top: 20px;
@@ -142,7 +144,7 @@
 	width: 14px;
 	height: 14px;
 }
-.tos_list_subwrap2 {
+.tos_list_agree1 {
     background-color: #f8f8f8;
 	width: 680px;
 	height: 200px;
@@ -154,17 +156,30 @@
 	border: 1px solid #cccccc;
 	border-radius: 3px;
 }
-.subwrap2_txt1 {
+.agree1_txt1 {
 	font-size: 15px;
 	color: #002f6c;
 	margin-bottom: 25px;
 }
-.subwrap2_txt2 {
+.agree1_txt2 {
 	text-align: center;
 	font-size: 13px;
 	color: #7a7a7a;
 	font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tos_list_red {
 	width: 680px;
 	height: 44px;
@@ -186,6 +201,7 @@
 	border-radius: 3px;
 }
 .tos_bottom_join a {
+	display: block; /* 이거 해줘야 블록 전체에 포인터 커서 생김 */
 	width: 100%;
 	color: white;
 	font-size: 18px;
