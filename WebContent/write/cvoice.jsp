@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 <link href="/Html_ex2/css/reset.css" rel="stylesheet">
 <link href="/Html_ex2/css/layout.css" rel="stylesheet">
+<link href="../css/cvoice.css" rel="stylesheet">
 </head>
 <body>
 <!------- header ------------------------------------>
@@ -64,10 +65,10 @@
 		</div> <!-- wrap -->
 	</header>
 <!------- section ------------------------------------>	
-	<section class="main">
-		<div class="main_top">
-			<h1>고객의 소리</h1>
-			<p>이디야는 고객의 의견을 가장 소중히 생각합니다.</p>
+	<section class="cvoice">
+		<div class="cvoice_top">
+			<h1 class="top_tt">고객의 소리</h1>
+			<p class="top_subtt">이디야는 고객의 의견을 가장 소중히 생각합니다.</p>
 		</div> <!-- top -->
 		<ul class="lnb">
 			<li><a href="#">매장검색</a></li>
