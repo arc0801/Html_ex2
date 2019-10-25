@@ -97,31 +97,27 @@
 						</h2>
 						<p class="voice_3">개인 정보의 수집 및 이용에 관한 내용을 충분히 읽어보신 후 동의하여 주시기 바랍니다.</p>
 						<div class="voice_4">
-							<p>
+							<p class="voice_4_1">
 								개인정보 수집·이용에 관한 사항
 								<span>(필수)</span>
 							</p>
+							<br>
 							<span>회사는 상담을 위해 아래와 같은 개인정보를 수집하고 있습니다.</span>
 						</div>
 						<div class="voice_5">
 							<input type="checkbox">
-							<p>개인정보 수집 이용에 동의합니다.</p>
+							<span>개인정보 수집 이용에 동의합니다.</span>
 						</div>
 					</div>
 					<div class="voice_top">
-						<div class="form_wrap">
-							<div class="form_1"></div>
-							<div class="form_2"></div>
-							<div class="form_3"></div>
-							<div class="form_4"></div>
-							<div class="form_5"></div>
-							<div class="form_6"></div>
-							<div class="form_7"></div>
-							<div class="form_8"></div>
-							<div class="form_9"></div>
-							<div class="form_10"></div>
-							<div class="form_11"></div>
-						</div> <!-- form_wrap -->
+						<fieldset>
+							<div class="form_wrap">
+								<dl>
+									<dt>이름</dt>
+									<dd><input type="text"></dd>
+								</dl>
+							</div> <!-- form_wrap -->
+						</fieldset>
 						<div class="form_bottom">※ 20MB 이하의 파일만 업로드 가능합니다</div>
 					</div>
 					<div class="voice_top">
