@@ -245,14 +245,38 @@ fieldset {
 	width: 100%;
 	background-color: lightblue;
 }
-. form_wrap dl {
+.form_wrap dl {
 	width: 100%;
 	padding-bottom: 10px;
 	display: table;
 }
-
-
-
+.form_wrap dt {
+	width: 140px;
+	height: 58px;
+	line-height: 58px;
+	float: left;
+	font-size: 15px;
+	color: #464646;
+	font-weight: bold;
+}
+.form_wrap dd {
+	width: 540px;
+	height: 58px;
+	line-height: 58px;
+	float: left;
+	color: #202023;
+	font-size: 15px;
+}
+.form_wrap input {
+	width: 100%;
+	border: solid 1px #CCCCCC;
+	border-radius: 3px;
+	box-sizing: border-box;
+	color: #707070;
+	height: 58px;
+	padding-left: 20px;
+	font-size: 15px;
+}
 
 
 
