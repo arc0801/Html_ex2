@@ -277,7 +277,39 @@ fieldset {
 	padding-left: 20px;
 	font-size: 15px;
 }
-
+.email_box {
+	overflow: hidden;
+	display: table;
+	width: 100%;
+}
+.email_box li {
+	position: relative;
+	height: 58px;
+	line-height: 58px;
+	width: 31.1%;
+	float: left;
+	overflow: hidden;
+}
+.email_2 {
+	width: 3.7%;
+	margin: 0 1%;
+	text-align: center;
+	border: 0;
+	font-size: 16px;
+}
+.email_4 {
+	margin-left: 1%;
+}
+.email_4 select {
+	height: 58px;
+	font-size: 15px;
+	width: 100%;
+	background: transparent;
+	border: none;
+	padding: 5px;
+	padding-left: 15px;
+	color: #707070;
+}
 
 
 
