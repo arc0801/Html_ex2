@@ -267,7 +267,7 @@ fieldset {
 	color: #202023;
 	font-size: 15px;
 }
-.form_wrap input {
+.form_wrap dd input {
 	width: 100%;
 	border: solid 1px #CCCCCC;
 	border-radius: 3px;
@@ -283,24 +283,31 @@ fieldset {
 	width: 100%;
 }
 .email_box li {
+	width: 31.1%;
 	position: relative;
 	height: 58px;
 	line-height: 58px;
-	width: 31.1%;
 	float: left;
 	overflow: hidden;
 }
-.email_2 {
+.email_box li.email_2 {
 	width: 3.7%;
 	margin: 0 1%;
 	text-align: center;
 	border: 0;
 	font-size: 16px;
 }
-.email_4 {
+.join_select {
+	float: left;
+	height: 58px;
+	background: url("../images/cvoice/pop_select_arrow.gif") no-repeat right center;
+	border: solid 1px #cccccc;
+	border-radius: 3px;
+	overflow: hidden;
+	box-sizing: border-box;
 	margin-left: 1%;
 }
-.email_4 select {
+.join_select select {
 	height: 58px;
 	font-size: 15px;
 	width: 100%;
@@ -309,8 +316,41 @@ fieldset {
 	padding: 5px;
 	padding-left: 15px;
 	color: #707070;
+	-webkit-appearance: none;
 }
-
+.join_select.store {
+	width: 32.5%;
+	margin-left: 1.25%;
+}
+.join_select.store:first-child {
+	margin-left: 0;
+}
+.join_select.date:first-child {
+	position: relative;
+	margin-left: 0;
+	background: none;
+}
+.join_select.date {
+	width: 49.4%;
+	margin-left: 1.2%;
+}
+.date_1 {
+	border: none;
+	background: url("../images/cvoice/select_calendar.gif") right center no-repeat;
+}
+.kind {
+	font-size: 14px;
+}
+.kind li {
+	float: left;
+	font-size: 15px;
+}
+.kind li input {
+	margin: 0 5px 0 26px;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
 
 
 

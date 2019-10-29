@@ -131,7 +131,7 @@
 											<li class="email_3">
 											<input type="text">
 											</li>
-											<li class="email_4">
+											<li class="join_select">
 												<select>
 													<option>직접 입력</option>
 													<option>naver.com</option>
@@ -151,7 +151,7 @@
 								<dl>
 									<dt>매장 선택</dt>
 									<dd>
-										<div class="store_wrap">
+										<div class="join_select store">
 											<select>
 												<option>시/도 (선택안함)</option>
 												<option></option>
@@ -176,12 +176,12 @@
 												<option>충북</option>
 											</select>
 										</div>
-										<div>
+										<div class="join_select store">
 											<select>
 												<option>구/군 (선택안함)</option>
 											</select>
 										</div>
-										<div>
+										<div class="join_select store">
 											<select>
 												<option>본사</option>
 											</select>
@@ -191,10 +191,10 @@
 								<dl>
 									<dt>방문 날짜</dt>
 									<dd>
-										<div class="date">
-											<input type="text" placeholder="날짜 선택">
+										<div class="join_select date">
+											<input type="text" placeholder="날짜 선택" class="date_1">
 										</div>
-										<div>
+										<div class="join_select date">
 											<select>
 												<option>1시</option>
 												<option>2시</option>
