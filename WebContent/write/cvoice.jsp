@@ -245,8 +245,8 @@
 								</dl>
 								<dl>
 									<dt>문의 내용</dt>
-									<dd>
-										<textarea rows="" cols=""></textarea>
+									<dd class="contents">
+										<textarea></textarea>
 									</dd>
 								</dl>
 								<dl>

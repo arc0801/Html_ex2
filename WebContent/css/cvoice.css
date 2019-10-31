@@ -349,7 +349,7 @@ fieldset {
 	border: none;
 	background: url("../images/cvoice/select_calendar.gif") right center no-repeat;
 }
-.kind_wrap {
+dd.kind_wrap {
 	height: 116px;
 }
 .kind {
@@ -370,8 +370,20 @@ fieldset {
 .kind li input:first-child {
 	margin-left: 0;
 }
-
-
+.contents {
+	height: 160px;
+	width: 540px;
+	line-height: 58px;
+}
+.contents textarea {
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	box-sizing: border-box;
+	resize: none;
+}
 
 
 /****** footer ***********************************************/
