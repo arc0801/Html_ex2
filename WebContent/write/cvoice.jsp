@@ -71,19 +71,15 @@
 			<p class="top_subtt">이디야는 고객의 의견을 가장 소중히 생각합니다.</p>
 		</div> <!-- top -->
 		<ul class="lnb">
-			<li><a href="#">매장검색</a></li>
-			<li><a href="#">고객의 소리</a></li>
-			<li><a href="#">FAQ</a></li>
-			<li><a href="#">칭찬매장</a></li>
-			<li><a href="#">마케팅 제휴/제안</a></li>
-			<li><a href="#">채용정보</a></li>
+			<!--li와 li Enter 하지 마시오!! li 사이 공백 없애는 법 -->
+			<li><a href="#">매장검색</a></li><li><a href="#">고객의 소리</a></li><li><a href="#">FAQ</a></li><li><a href="#">칭찬매장</a></li><li><a href="#">마케팅 제휴/제안</a></li><li><a href="#">채용정보</a></li>
 		</ul> <!-- lnb -->
 		
 		<div class="con_top">
 			<div class="con_top_sub">
 				<span>HOME</span>
 				<span>고객센터</span>
-				"고객의 소리"
+				고객의 소리
 			</div> <!-- top_sub -->
 		</div> <!-- top -->
 		
@@ -226,7 +222,7 @@
 								</dl>
 								<dl>
 									<dt>분야 선택</dt>
-									<dd>
+									<dd class="kind_wrap">
 										<ul class="kind">
 											<li>
 												<input type="radio" name="category" value="S" checked="checked"> 기본서비스

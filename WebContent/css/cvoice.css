@@ -7,6 +7,7 @@ header {
 	position: fixed;
 	top: 0;
 	background-color: white;
+	z-index: 9999;
 }
 .header_top {
 	width: 61.46%;
@@ -138,9 +139,13 @@ header {
 	width: 178px;
 	display: inline-block;
 	border: solid 1px #98989e;
+	border-left: none;
 	box-sizing: border-box;
 	margin-bottom: -1px;
-	/* border-spacing: -20px; */
+	opacity: 0.7;
+}
+.lnb li:first-child {
+	border-left: solid 1px #98989e;
 }
 .lnb li a {
 	display: block;
@@ -159,6 +164,7 @@ header {
 	padding-top: 38px;
 	color: #898989;
 	font-size: 12px;
+	font-weight: bold;
 }
 .con_top_sub span {
 	background: url("../images/cvoice/icon_loc.png") right no-repeat;
@@ -203,6 +209,7 @@ header {
 	padding-top: 7px;
 	text-align: center;
 	color: #464646;
+	font-weight: bold;
 }
 .voice_4 {
 	width: 100%;
@@ -237,13 +244,13 @@ header {
 .voice_5 > span {
 	height: 15px;
 	vertical-align: middle;
+	font-weight: bold;
 }
 fieldset {
 	border: 0;
 }
 .form_wrap {
 	width: 100%;
-	background-color: lightblue;
 }
 .form_wrap dl {
 	width: 100%;
@@ -290,6 +297,10 @@ fieldset {
 	float: left;
 	overflow: hidden;
 }
+.email_box li input {
+	position: absolute;
+	top: 0;
+}
 .email_box li.email_2 {
 	width: 3.7%;
 	margin: 0 1%;
@@ -334,9 +345,12 @@ fieldset {
 	width: 49.4%;
 	margin-left: 1.2%;
 }
-.date_1 {
+.join_select.date input {
 	border: none;
 	background: url("../images/cvoice/select_calendar.gif") right center no-repeat;
+}
+.kind_wrap {
+	height: 116px;
 }
 .kind {
 	font-size: 14px;
@@ -344,12 +358,17 @@ fieldset {
 .kind li {
 	float: left;
 	font-size: 15px;
+	height: 58px;
+	line-height: 58px;
 }
 .kind li input {
 	margin: 0 5px 0 26px;
 	width: 15px;
 	height: 15px;
 	vertical-align: middle;
+}
+.kind li input:first-child {
+	margin-left: 0;
 }
 
 
