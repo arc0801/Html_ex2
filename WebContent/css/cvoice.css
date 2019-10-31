@@ -345,6 +345,13 @@ fieldset {
 	width: 49.4%;
 	margin-left: 1.2%;
 }
+input[type=date]::-webkit-calendar-picker-indicator {
+	display: 
+}
+input[type="date"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	display: none;
+}
 .join_select.date input {
 	border: none;
 	background: url("../images/cvoice/select_calendar.gif") right center no-repeat;
@@ -370,7 +377,7 @@ dd.kind_wrap {
 .kind li input:first-child {
 	margin-left: 0;
 }
-.contents {
+.form_wrap dd.contents {
 	height: 160px;
 	width: 540px;
 	line-height: 58px;
@@ -384,7 +391,89 @@ dd.kind_wrap {
 	box-sizing: border-box;
 	resize: none;
 }
-
+.form_wrap dd.file input {
+	padding-left: 0;
+	height: 28px;
+}
+.form_bottom {
+	color: red;
+	font-size: 13px;
+	font-weight: bold;
+}
+.notify {
+	padding: 44px 0 50px;
+	width: 100%;
+	max-width: 680px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ebebeb;
+}
+.notify_wrap {
+	margin: -19px 0 -25px;
+}
+.notify_wrap dl {
+	display: table;
+	width: 100%;
+}
+.notify_wrap dt {
+	width: 140px;
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	font-size: 15px;
+}
+.notify_wrap dd {
+	width: 540px;
+	float: left;
+}
+.notify_wrap ul {
+	padding-left: 30px;
+	border-left: 1px solid #ebebeb;
+}
+.notify_wrap ul li {
+	font-size: 13px;
+	padding-left: 13px;
+	background: url("../images/cvoice/join_bullet.gif") left 10px no-repeat;
+	color: #707070;
+	line-height: 1.6em;
+}
+.notify_wrap ul li.blue {
+	background-image: url("../images/cvoice/join_bullet_blue.gif");
+	color: #002f6c;
+}
+.box_btn {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 100%;
+	max-width: 500px;
+}
+.box_btn a.gray_btn {
+	height: 68px;
+	line-height: 68px;
+	float: left;
+	display: block;
+	width: 49%;
+	max-width: 245px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #acacac;
+	border-radius: 3px;
+	margin-right: 2%;
+}
+.blue_btn {
+	height: 68px;
+	float: left;
+	width: 49%;
+	border: solid 1px #002f6c;
+	background-color: #002f6c;
+	border-radius: 3px;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
 
 /****** footer ***********************************************/
 footer {

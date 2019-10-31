@@ -188,7 +188,7 @@
 									<dt>방문 날짜</dt>
 									<dd>
 										<div class="join_select date">
-											<input type="text" placeholder="날짜 선택" class="date_1">
+											<input type="date" placeholder="날짜 선택" class="date_1">
 										</div>
 										<div class="join_select date">
 											<select>
@@ -251,15 +251,15 @@
 								</dl>
 								<dl>
 									<dt>파일 첨부1</dt>
-									<dd><input type="file"></dd>
+									<dd class="file"><input type="file"></dd>
 								</dl>
 								<dl>
 									<dt>파일 첨부2</dt>
-									<dd><input type="file"></dd>
+									<dd class="file"><input type="file"></dd>
 								</dl>
 								<dl>
 									<dt>파일 첨부3</dt>
-									<dd><input type="file"></dd>
+									<dd class="file"><input type="file"></dd>
 								</dl>
 							</div> <!-- form_wrap -->
 						</fieldset>
