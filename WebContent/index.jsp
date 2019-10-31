@@ -116,7 +116,7 @@
 				<li><a href="#">가맹 안내</a></li>
 				<li><a href="#">대량쿠폰구매</a></li>
 				<li><a href="#">채용안내</a></li>
-				<li><a href="#">고객의 소리</a></li>
+				<li><a href="/Html_ex2/write/cvoice.jsp">고객의 소리</a></li>
 				<li><a href="#">Sitemap</a></li>
 				<li><a href="#">점주의 방</a></li>
 			</ul> <!-- wrap -->
